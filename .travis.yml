@@ -11,7 +11,8 @@ env:
   matrix:
   - MODE=js DART_CHANNEL=stable
   - MODE=dart DART_CHANNEL=stable
-  - MODE=dart DART_CHANNEL=dev
+# Dissabled until Dart v1.9 hits stable
+#  - MODE=dart DART_CHANNEL=dev
 
 before_install:
 - export DISPLAY=:99.0
